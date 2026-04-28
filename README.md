@@ -617,7 +617,7 @@ KPL players registration
 <div class="header">
   <div class="header-badge">🏆 Official Registration Portal</div>
   <h1>KHALWADA <span>PRIDE</span> LEAGUE</h1>
-  <div class="header-sub">🏏 Cricket Tournament 2025</div>
+  <div class="header-sub">🏏 Cricket Tournament 2026</div>
   <div class="header-nav">
     <button class="nav-btn active" onclick="showPage('home')">🏠 Home</button>
     <button class="nav-btn" onclick="showPage('register')">📝 Register</button>
@@ -629,7 +629,7 @@ KPL players registration
 <div id="page-home" class="page active">
   <div class="hero">
     <span class="cricket-icon">🏏</span>
-    <h2>Welcome to KPL 2025</h2>
+    <h2>Welcome to KPL 2026</h2>
     <p>Khalwada ki sabse badi cricket league mein participate karo!<br>Registration karo, payment karo, aur apna safar shuru karo.</p>
   </div>
 
@@ -877,7 +877,7 @@ KPL players registration
     <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:16px;">
       <div>
         <div style="font-family: 'Bebas Neue', sans-serif; font-size: 22px; letter-spacing: 2px; color: var(--green);">ADMIN PANEL</div>
-        <div style="font-size: 12px; color: var(--muted);">KPL 2025 Management</div>
+        <div style="font-size: 12px; color: var(--muted);">KPL 2026 Management</div>
       </div>
       <button onclick="adminLogout()" style="background: rgba(255,61,61,0.1); border: 1px solid rgba(255,61,61,0.3); color: var(--red); padding: 8px 14px; border-radius: 8px; cursor: pointer; font-size: 13px; font-weight: 700;">Logout</button>
     </div>
@@ -1081,9 +1081,9 @@ function saveData(data) {
 
 function getDefaultData() {
   return {
-    admin: { username: 'admin', password: 'kpl2025' },
+    admin: { username: 'admin', password: 'kpl2026' },
     settings: {
-      tournamentName: 'Khalwada Pride League 2025',
+      tournamentName: 'Khalwada Pride League 2026',
       fee: 200,
       slots: 50,
       startDate: '',
